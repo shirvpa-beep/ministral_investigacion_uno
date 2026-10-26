@@ -1,0 +1,25 @@
+﻿# Entornos virtuales de Python
+.venv/
+.venv_respaldo/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Configuracion local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editores
+.vscode/
+.idea/
+
+# Modelos locales pesados
+models/
+*.gguf

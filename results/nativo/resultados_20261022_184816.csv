@@ -1,0 +1,109 @@
+﻿id,category,task,prompt,output,generated_tokens,total_time_seconds,tokens_per_second,ttft_estimated_seconds,temperature,max_tokens,status,error
+P01,generacion_texto,Redactar un correo formal,"Redacta un correo formal dirigido al profesor con ideas: 1) no pude asistir a la clase por una situación personal, 2) necesito conocer los temas vistos, y 3) quiero solicitar el material utilizado en la clase. Utiliza un tono respetuoso y profesional.","**Asunto:** Consulta por ausentismo en clase – [Nombre del curso]
+
+**[Tu nombre completo]**
+[Tu dirección de correo institucional, si aplica]
+[Fecha: 22 de octubre de 2026]
+
+**Estimado/a Profesor/a [Apellido del profesor]:**
+
+Espero que se encuentre bien. Por medio del presente, me dirijo a usted con el mayor respeto para **informarle que, por motivos personales imprevistos**, no pude asistir a la clase del [mencionar fecha o día, ej.: *""viernes 20 de octubre""*], lo cual lamento profundamente.
+
+Dado que es fundamental para mi aprendizaje y el avance del curso, **me gustaría saber si podría orientarme sobre los temas desarrollados en la sesión**, así como cualquier material clave (apuntes, lecturas obligatorias, ejercicios o recursos adicionales) que se hayan utilizado durante esa clase. Quedo atento/a a sus indicaciones para recuperarlos o recibirlos por su vía.
+
+Agradezco de antemano su tiempo y disposición para facilitarme esta información, y me comprometo a revisar los materiales y asimilar los contenidos con la misma dedicación que requ",256,113.9335,7.69,25.5968,0.7,256,ejecutado,
+P02,generacion_texto,Redactar una solicitud formal,"Redacta una solicitud formal dirigida al departamento de soporte técnico de una universidad para solicitar la revisión de una computadora que presenta problemas de rendimiento. Incluye que el equipo se vuelve lento, que el problema afecta las actividades académicas y que se solicita una revisión técnica.","**[Tu Nombre]**
+[Tu Carné de Estudiante o Identificación, si aplica]
+[Facultad/Carrera]
+[Programa Académico]
+[Correo Electrónico Oficial de la Universidad]
+[Teléfono de Contacto]
+[Fecha: 22 de octubre de 2026]
+
+---
+**Asunto:** Solicitud de revisión técnica por bajo rendimiento en computadora asignada – Equipo: **[Ingresa número de serie o modelo si lo tienes]**
+
+**Estimado Departamento de Soporte Técnico:**
+
+Mi nombre es **[Tu Nombre Completo]** y soy estudiante del **[Nombre de tu Facultad/Carrera]** en **[Nombre de la Universidad]**, con matrícula en **[Año/Año Letivo]** y carné de estudiante **[XX-XXXXXXX]**. A través del presente documento, me dirijo a ustedes para reportar un **problema crítico de rendimiento** en la computadora asignada por el departamento de tecnología para mis actividades académicas.
+
+Desde hace **[especificar tiempo aproximado, ej. ""varias semanas"" o ""desde el inicio del semestre""]**, he notado que el equipo presenta **lentitud significativa** al ejecutar tareas cotidianas, tales",256,31.7996,8.74,0.4137,0.7,256,ejecutado,
+P03,resumen,Resumir un texto en tres viñetas,"Resume el siguiente texto en exactamente tres viñetas, conservando únicamente las ideas principales: La inteligencia artificial se ha incorporado progresivamente en diferentes áreas de la sociedad. En las empresas puede utilizarse para automatizar tareas, analizar grandes cantidades de información y apoyar la toma de decisiones. En educación puede ayudar a personalizar el aprendizaje, generar materiales y proporcionar asistencia a los estudiantes. En el sector salud puede apoyar el análisis de información médica y la detección de patrones. Sin embargo, su utilización también plantea desafíos relacionados con la privacidad, la seguridad de los datos, los sesgos y la necesidad de supervisión humana. Por esta razón, las organizaciones deben establecer políticas que permitan utilizar estas tecnologías de manera responsable, segura y transparente.","- **Aplicaciones de la IA**: Se integra en empresas (automatización, análisis de datos y toma de decisiones), educación (personalización del aprendizaje y apoyo a estudiantes) y salud (análisis médico y detección de patrones).
+- **Desafíos éticos**: Plantea riesgos como privacidad, seguridad de datos, sesgos algorítmicos y la necesidad de supervisión humana.
+- **Responsabilidad en su uso**: Las organizaciones deben implementar políticas claras para garantizar un desarrollo seguro, transparente y ético de la IA.",122,16.3884,8.84,0.4879,0.7,256,ejecutado,
+P04,resumen,Resumir un texto técnico,"Resume el siguiente texto técnico en un máximo de 80 palabras: Un modelo de lenguaje local es un sistema de inteligencia artificial que puede ejecutarse directamente en una computadora sin depender necesariamente de un servicio externo para generar respuestas. La ejecución local puede ofrecer ventajas relacionadas con la privacidad, ya que los datos pueden permanecer en el equipo del usuario. Sin embargo, también requiere disponer de recursos de hardware suficientes, especialmente memoria RAM, almacenamiento y, en algunos casos, memoria de GPU. La cuantización permite reducir el tamaño de los modelos y facilitar su ejecución en equipos con recursos limitados, aunque puede producir cierta pérdida de precisión.","**Resumen (80 palabras):**
+Un modelo de lenguaje local ejecuta IA en la computadora del usuario sin depender de servidores externos, mejorando la privacidad al mantener los datos en el dispositivo. Requiere recursos como RAM, almacenamiento y, a veces, GPU. La **cuantización** optimiza su tamaño y rendimiento en equipos con capacidades limitadas, aunque puede reducir la precisión. Ideal para entornos controlados con hardware suficiente.",98,13.5282,8.98,0.5243,0.7,256,ejecutado,
+P05,correccion_traduccion,Corrección ortográfica,"Corrige únicamente los errores ortográficos y gramaticales del siguiente texto, sin cambiar su significado: La inteligensia artificial se a convertido en una herramienta muy importante para las organisaciones, ya que permite analizar grandes cantidades de datos y automatizar prosesos. Sin embargo, es necesario utilizarla de manera responsable y segura.","Aquí tienes el texto corregido:
+
+---
+**La inteligencia artificial se ha convertido** en una herramienta muy importante para las **organizaciones**, ya que permite analizar grandes cantidades de datos y **automatizar procesos**. Sin embargo, es necesario utilizarla de manera responsable y segura.",59,8.4245,10.04,0.4527,0.7,256,ejecutado,
+P06,correccion_traduccion,Traducción español a inglés,"Traduce al inglés el siguiente texto manteniendo su significado y utilizando un lenguaje profesional: La ejecución local de modelos de inteligencia artificial permite procesar información directamente en el equipo del usuario, reduciendo la dependencia de servicios externos y ofreciendo mayor control sobre los datos.","Here is the professional English translation of your text:
+
+**""Local execution of AI models enables the processing of data directly on the user’s device, minimizing reliance on external services and enhancing data security and control.""**
+
+Alternatively, if you'd like to emphasize the technical or strategic aspects more strongly, you could also use:
+
+**""On-device AI model execution processes information locally, reducing dependency on third-party infrastructure while increasing data privacy and operational control.""**
+
+Would you like any adjustments based on a specific context (e.g., technical, business, or regulatory focus)?",111,14.0406,9.62,0.4224,0.7,256,ejecutado,
+P07,codigo,Generar una función Python,Escribe una función en Python llamada calcular_promedio que reciba una lista de números y devuelva su promedio. La función debe manejar correctamente una lista vacía evitando una división entre cero. Después explica brevemente cómo funciona y proporciona un ejemplo de uso.,"Aquí tienes la función `calcular_promedio` en Python, que maneja correctamente el caso de una lista vacía para evitar una división por cero:
+
+```python
+def calcular_promedio(lista_numeros):
+    """"""
+    Calcula el promedio de una lista de números.
+
+    Args:
+        lista_numeros (list): Lista de números enteros o flotantes.
+
+    Returns:
+        float: El promedio de los números, o None si la lista está vacía.
+    """"""
+    if not lista_numeros:  # Verifica si la lista está vacía
+        return None
+    return sum(lista_numeros) / len(lista_numeros)
+```
+
+### Explicación:
+1. **Verificación de lista vacía**: La función primero comprueba si la lista está vacía (`if not lista_numeros`). Si es así, devuelve `None` para indicar que no se puede calcular el promedio.
+2. **Cálculo del promedio**: Si la lista no está vacía, suma todos los elementos (`sum(lista_numeros)`) y los divide por la cantidad de elementos (`len(lista_numeros)`).
+
+### Ejemplo de uso:
+```python
+# Ejemplo",256,32.184,8.63,0.4008,0.7,256,ejecutado,
+P08,codigo,Generar una consulta SQL,"Escribe una consulta SQL para obtener el nombre y salario de los empleados cuyo salario sea mayor a 1000000. La información se encuentra en una tabla llamada empleados con las columnas id, nombre y salario. Ordena los resultados de mayor a menor salario y explica brevemente la consulta.","Aquí tienes la consulta SQL para obtener el nombre y salario de los empleados con salario mayor a **1.000.000**, ordenados de mayor a menor:
+
+```sql
+SELECT nombre, salario
+FROM empleados
+WHERE salario > 1000000
+ORDER BY salario DESC;
+```
+
+### Explicación:
+1. **`SELECT nombre, salario`**
+   Selecciona las columnas `nombre` y `salario` de la tabla `empleados`.
+
+2. **`FROM empleados`**
+   Indica que la tabla de origen es `empleados`.
+
+3. **`WHERE salario > 1000000`**
+   Filtra solo las filas donde el salario sea **mayor a 1.000.000**.
+
+4. **`ORDER BY salario DESC`**
+   Ordena los resultados en **orden descendente** (de mayor a menor) según el salario.
+
+---
+**Nota:** Si los salarios están almacenados en formato monetario con separadores (ej: `1.000.000` con comas), podrías necesitar ajustar el filtro. En ese",256,32.3028,8.59,0.4076,0.7,256,ejecutado,
+P09,razonamiento_veracidad,Problema lógico,Resuelve el siguiente problema lógico mostrando brevemente el razonamiento: Ana es mayor que Luis. Luis es mayor que Pedro. ¿Quién es la persona menor de las tres? Explica cómo llegaste a la respuesta.,"**Razonamiento:**
+
+1. **Dato 1:** Ana > Luis (Ana es mayor que Luis).
+2. **Dato 2:** Luis > Pedro (Luis es mayor que Pedro).
+
+De estas relaciones, podemos inferir que la persona que está en el extremo opuesto de la cadena de desigualdades es la más pequeña.
+
+**Conclusión:** Pedro es la persona menor de las tres.
+
+**Explicación:**
+Como Ana es mayor que Luis y Luis es mayor que Pedro, la ordenación de mayor a menor sería: **Ana > Luis > Pedro**. Por lo tanto, **Pedro es el menor**.",129,16.4103,9.29,0.4465,0.7,256,ejecutado,
+P10,razonamiento_veracidad,Pregunta factual verificable,¿Cuál es la capital de Costa Rica? Responde únicamente con el nombre de la ciudad y no agregues información adicional.,San José.,4,3.2834,9.81,0.781,0.7,256,ejecutado,

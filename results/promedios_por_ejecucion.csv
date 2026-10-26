@@ -1,0 +1,7 @@
+﻿"configuracion","archivo","pruebas_validas","ttft_estimated_seconds","tokens_per_second","total_time_seconds","generated_tokens"
+"nativo","resultados_20261022_184816.csv","10","2,9934","9,023","28,2295","154,7"
+"nativo","resultados_20261022_185531.csv","10","0,4936","9,002","19,7677","147,3"
+"nativo","resultados_20261022_190004.csv","10","0,4674","9,087","20,1389","150,5"
+"docker","resultados_20261023_011411.csv","10","0,4694","9,968","18,5089","156,4"
+"docker","resultados_20261023_012018.csv","10","0,4176","9,967","16,0341","148"
+"docker","resultados_20261023_012322.csv","10","0,4459","9,992","17,103","158,9"

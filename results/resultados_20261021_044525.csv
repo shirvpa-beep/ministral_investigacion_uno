@@ -1,0 +1,106 @@
+﻿id,category,task,prompt,output,generated_tokens,total_time_seconds,tokens_per_second,ttft_estimated_seconds,temperature,max_tokens,status,error
+P01,generacion_texto,Redactar un correo formal,"Redacta un correo formal dirigido al profesor con ideas: 1) no pude asistir a la clase por una situación personal, 2) necesito conocer los temas vistos, y 3) quiero solicitar el material utilizado en la clase. Utiliza un tono respetuoso y profesional.","**Asunto:** Consulta sobre clase del [fecha] – Solicitud de materiales y temas
+
+**Estimado/a Profesor/a [Apellido del profesor]:**
+
+Espero que este mensaje le encuentre bien. Me dirijo a usted con el mayor respeto para informarle que, lamentablemente, **no pude asistir a la clase del día [fecha de la clase] debido a [breve mención de la situación personal, por ejemplo, *un imprevisto familiar]* que requirió mi atención urgente**.
+
+Entiendo la importancia de estar al tanto de los contenidos desarrollados en el aula, por lo que me gustaría **saber si podría indicarme los temas vistos durante esa sesión**, así como los subtemas o materiales clave abordados. Además, si es posible, **le agradecería profundamente si me pudiera compartir el material utilizado** (apuntes, slides, lecturas obligatorias, etc.), ya sea a través de correo adjunto o mediante una indicación sobre cómo acceder a él en la plataforma del curso.
+
+Quedo atento/a a sus indicaciones y, por supuesto, estaré encantado/a de ponerse al día con los contenidos pendientes. Agradezco de antem",256,71.9327,5.02,15.0381,0.7,256,ejecutado,
+P02,generacion_texto,Redactar una solicitud formal,"Redacta una solicitud formal dirigida al departamento de soporte técnico de una universidad para solicitar la revisión de una computadora que presenta problemas de rendimiento. Incluye que el equipo se vuelve lento, que el problema afecta las actividades académicas y que se solicita una revisión técnica.","**Asunto:** Solicitud de revisión técnica de computadora por problemas de rendimiento
+
+**A:** Departamento de Soporte Técnico
+**De:** [Tu nombre completo]
+**Matrícula/Código de empleado (si aplica):** [Tu número de matrícula o identificación]
+**Área/Departamento:** [Nombre de tu facultad/carrera o ""Alumno/a""]
+**Contacto:** [Teléfono] [Correo electrónico]
+**Fecha:** [20 de octubre de 2026]
+
+---
+**Solicitud formal de atención técnica**
+
+Estimados/as miembros del Departamento de Soporte Técnico:
+
+Por medio del presente, me dirijo a ustedes con el fin de solicitar la revisión técnica de mi computadora asignada, la cual presenta fallas significativas en su rendimiento que afectan directamente mis actividades académicas.
+
+**Detalles del problema:**
+- **Equipo:** [Modelo y número de serie, si lo conoces; ej. *""Portátil Lenovo ThinkPad T14, serie XXXXXX""*]
+- **Sintomas principales:**
+  - El sistema opera con lentitud extrema (ej. demora al abrir aplicaciones, congelamientos al navegar o trabajar",256,54.0384,4.91,1.9115,0.7,256,ejecutado,
+P03,resumen,Resumir un texto en tres viñetas,"Resume el siguiente texto en exactamente tres viñetas, conservando únicamente las ideas principales: La inteligencia artificial se ha incorporado progresivamente en diferentes áreas de la sociedad. En las empresas puede utilizarse para automatizar tareas, analizar grandes cantidades de información y apoyar la toma de decisiones. En educación puede ayudar a personalizar el aprendizaje, generar materiales y proporcionar asistencia a los estudiantes. En el sector salud puede apoyar el análisis de información médica y la detección de patrones. Sin embargo, su utilización también plantea desafíos relacionados con la privacidad, la seguridad de los datos, los sesgos y la necesidad de supervisión humana. Por esta razón, las organizaciones deben establecer políticas que permitan utilizar estas tecnologías de manera responsable, segura y transparente.","- **Aplicaciones de la IA**:
+  - Empresas: automatización de tareas, análisis de datos y soporte en decisiones.
+  - Educación: personalización del aprendizaje, creación de materiales y asistencia a estudiantes.
+  - Salud: diagnóstico médico, detección de patrones y análisis de información clínica.
+
+- **Desafíos éticos**:
+  - Riesgos en privacidad, seguridad de datos y sesgos algorítmicos.
+  - Requerimiento de supervisión humana para evitar errores.
+
+- **Marco regulatorio**:
+  - Necesidad de políticas corporativas que garanticen el uso responsable, seguro y transparente de la IA.",138,31.7152,5.05,4.3407,0.7,256,ejecutado,
+P04,resumen,Resumir un texto técnico,"Resume el siguiente texto técnico en un máximo de 80 palabras: Un modelo de lenguaje local es un sistema de inteligencia artificial que puede ejecutarse directamente en una computadora sin depender necesariamente de un servicio externo para generar respuestas. La ejecución local puede ofrecer ventajas relacionadas con la privacidad, ya que los datos pueden permanecer en el equipo del usuario. Sin embargo, también requiere disponer de recursos de hardware suficientes, especialmente memoria RAM, almacenamiento y, en algunos casos, memoria de GPU. La cuantización permite reducir el tamaño de los modelos y facilitar su ejecución en equipos con recursos limitados, aunque puede producir cierta pérdida de precisión.","**Resumen (80 palabras):**
+Un modelo de lenguaje local ejecuta IA directamente en la computadora del usuario, sin depender de servicios externos, mejorando la privacidad al mantener los datos en el dispositivo. Requiere recursos como RAM, almacenamiento y GPU para un buen rendimiento. La cuantización optimiza el tamaño del modelo y su ejecución en equipos limitados, aunque puede afectar ligeramente la precisión. Ideal para entornos con restricciones técnicas.",97,22.0517,5.3,3.7358,0.7,256,ejecutado,
+P05,correccion_traduccion,Corrección ortográfica,"Corrige únicamente los errores ortográficos y gramaticales del siguiente texto, sin cambiar su significado: La inteligensia artificial se a convertido en una herramienta muy importante para las organisaciones, ya que permite analizar grandes cantidades de datos y automatizar prosesos. Sin embargo, es necesario utilizarla de manera responsable y segura.","La **inteligencia** artificial se ha **convertido** en una herramienta muy importante para las **organizaciones**, ya que permite analizar grandes cantidades de datos y automatizar **procesos**. Sin embargo, es necesario utilizarla de manera responsable y segura.",56,12.5903,5.33,2.0659,0.7,256,ejecutado,
+P06,correccion_traduccion,Traducción español a inglés,"Traduce al inglés el siguiente texto manteniendo su significado y utilizando un lenguaje profesional: La ejecución local de modelos de inteligencia artificial permite procesar información directamente en el equipo del usuario, reduciendo la dependencia de servicios externos y ofreciendo mayor control sobre los datos.","The local execution of artificial intelligence models enables direct processing of information on the user's device, minimizing reliance on external services and providing greater control over data.",31,7.5343,5.45,1.8259,0.7,256,ejecutado,
+P07,codigo,Generar una función Python,Escribe una función en Python llamada calcular_promedio que reciba una lista de números y devuelva su promedio. La función debe manejar correctamente una lista vacía evitando una división entre cero. Después explica brevemente cómo funciona y proporciona un ejemplo de uso.,"Aquí tienes la función `calcular_promedio` en Python, que maneja correctamente una lista vacía:
+
+```python
+def calcular_promedio(numeros):
+    """"""
+    Calcula el promedio de una lista de números.
+
+    Args:
+        numeros (list): Lista de números (enteros o flotantes).
+
+    Returns:
+        float: El promedio de los números. Si la lista está vacía, devuelve 0.
+    """"""
+    if not numeros:  # Verifica si la lista está vacía
+        return 0
+    return sum(numeros) / len(numeros)
+```
+
+### Explicación:
+1. **Manejo de lista vacía**: La función primero verifica si la lista está vacía con `if not numeros`. Si es así, devuelve `0` para evitar una división entre cero.
+2. **Cálculo del promedio**: Si la lista no está vacía, calcula el promedio dividiendo la suma de los elementos (`sum(numeros)`) por la cantidad de elementos (`len(numeros)`).
+
+### Ejemplo de uso:
+```python
+# Ejemplo 1: Lista con números
+lista_numeros = [10,",256,51.5483,5.15,1.8118,0.7,256,ejecutado,
+P08,codigo,Generar una consulta SQL,"Escribe una consulta SQL para obtener el nombre y salario de los empleados cuyo salario sea mayor a 1000000. La información se encuentra en una tabla llamada empleados con las columnas id, nombre y salario. Ordena los resultados de mayor a menor salario y explica brevemente la consulta.","Aquí tienes la consulta SQL para obtener los nombres y salarios de los empleados con salario superior a 1 millón, ordenados de mayor a menor:
+
+```sql
+SELECT nombre, salario
+FROM empleados
+WHERE salario > 1000000
+ORDER BY salario DESC;
+```
+
+### Explicación de la consulta:
+1. **`SELECT nombre, salario`**:
+   Selecciona solo las columnas `nombre` y `salario` de la tabla `empleados`.
+
+2. **`FROM empleados`**:
+   Indica que la tabla de origen es `empleados`.
+
+3. **`WHERE salario > 1000000`**:
+   Filtra los registros para incluir solo aquellos donde el valor de la columna `salario` es mayor a **1,000,000** (puedes ajustar el valor si es necesario).
+
+4. **`ORDER BY salario DESC`**:
+   Ordena los resultados **de mayor a menor** según el valor del `salario` (el parámetro `DESC` indica orden descendente).
+
+---
+**Nota:** Si necesitas incluir el `id` en los resultados, solo añades la columna en el `SELECT`:",256,52.1642,5.09,1.7973,0.7,256,ejecutado,
+P09,razonamiento_veracidad,Problema lógico,Resuelve el siguiente problema lógico mostrando brevemente el razonamiento: Ana es mayor que Luis. Luis es mayor que Pedro. ¿Quién es la persona menor de las tres? Explica cómo llegaste a la respuesta.,"Para resolver este problema lógico, analicemos las relaciones dadas:
+
+1. **Ana > Luis**: Esto significa que Ana es mayor que Luis.
+2. **Luis > Pedro**: Esto significa que Luis es mayor que Pedro.
+
+Si combinamos ambas afirmaciones:
+- Como Ana es mayor que Luis, y Luis es mayor que Pedro, entonces **Ana > Luis > Pedro**.
+Por lo tanto, **Pedro es la persona más joven** (o menor) de las tres.
+
+**Respuesta final:** Pedro es el menor.",108,22.8703,5.08,1.5653,0.7,256,ejecutado,
+P10,razonamiento_veracidad,Pregunta factual verificable,¿Cuál es la capital de Costa Rica? Responde únicamente con el nombre de la ciudad y no agregues información adicional.,San José.,4,1.6157,6.93,0.9923,0.7,256,ejecutado,
